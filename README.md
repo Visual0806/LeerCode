@@ -2,7 +2,7 @@
 
 ## STL
 
-### vector 数组
+### vector
 ```c++
 vector<int> vec(num, inital);
 
@@ -21,8 +21,8 @@ vec.empty();
 sort(vec.begin(), vec.end());
 sort(vec.begin(), vec.end(), greater<int>());
 reverse(vec.begin(), vec.end());
-vector<int>::iterator it =find(vec.begin(), vec.end(), x);
-vector<int>::iterator it =adjacent_find(vec.begin(), vec.end());//查找相邻重复元素
+vector<int>::iterator it = find(vec.begin(), vec.end(), x);
+vector<int>::iterator it = adjacent_find(vec.begin(), vec.end());//查找相邻重复元素
 bool binary_search(vec.begin(), vec.end(), x);
 int num = count(vec.begin(), vec.end(), x);
 merge(v1.begin(), v1.end(), v2.begin(), v2.end(), vtarget.begin());
