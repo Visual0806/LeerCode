@@ -1,1 +1,1 @@
-# LeerCode
+# LeetCode
