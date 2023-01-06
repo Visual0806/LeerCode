@@ -30,6 +30,13 @@ replace(vec.begin(), vec.end(), x1, x2);
 int total = accumulate(v.begin(), v.end(), 0);
 ```
 
+### string
+```c++
+strint s;
+
+s.substr(index, n);
+```
+
 ### deque 双端数组，可以对头端进行插入删除操作
 ```c++
 deque<int> vec(num, inital);
